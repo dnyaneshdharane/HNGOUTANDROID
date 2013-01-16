@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Hngout</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_singup">Singup</string>
+    <string name="title_activity_user">User</string>
+    <string name="title_activity_add_hngout">AddHngout</string>
+    <string name="title_activity_add_hngout__when">Add_hngout_When</string>
+    <string name="title_activity_add_hngout_where">Add_hngout_where</string>
+    <string name="title_activity_add_friends">AddFriends</string>
+    <string name="title_activity_add_hngout_who">Add_hngout_who</string>
+    <string name="title_activity_search_location">SearchLocation</string>
+
+</resources>

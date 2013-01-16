@@ -1,0 +1,136 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Add_hngout_who" >
+ <RelativeLayout
+      android:id="@+id/l1"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginBottom="0dp"
+      android:layout_marginTop="400dp"
+      android:background="#00ff33"
+      android:gravity="bottom"
+      android:orientation="vertical" >
+ 
+     
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="H" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@+id/button4"
+        android:text="C" />
+
+    <Button
+        android:id="@+id/button1"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_toLeftOf="@+id/button2"
+        android:text="F" />
+
+   
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/button4"
+        android:text="D" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:text="M" />
+
+   </RelativeLayout>
+      
+  <RelativeLayout
+      android:id="@+id/l2"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:layout_alignParentLeft="true"
+      android:background="#ff0033"
+      android:orientation="vertical" >
+
+      <Button
+          android:id="@+id/button3"
+          style="?android:attr/buttonStyleSmall"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignParentRight="true"
+          android:layout_alignParentTop="true"
+          android:gravity="right"
+          android:text="S" />
+
+      <TextView
+          android:id="@+id/textView2"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_centerHorizontal="true"
+          android:gravity="center"
+          android:text="HNGOUT"
+          android:textAppearance="?android:attr/textAppearanceLarge"/>
+  </RelativeLayout>
+
+  <Button
+      android:id="@+id/bBackwho"
+      style="?android:attr/buttonStyleSmall"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignParentLeft="true"
+      android:layout_below="@+id/l2"
+      android:text="Back" />
+
+  <ListView
+      android:id="@+id/listView1"
+      android:layout_width="match_parent"
+      android:layout_height="200dp"
+      android:layout_alignParentBottom="true"
+      android:layout_alignParentLeft="true"
+      android:layout_marginBottom="58dp" >
+  </ListView>
+
+  <CheckBox
+      android:id="@+id/chB1"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_above="@+id/listView1"
+      android:layout_marginBottom="24dp"
+      android:layout_marginLeft="17dp"
+      android:layout_toRightOf="@+id/bBack"
+      android:text=" Allow friends" />
+
+  <TextView
+      android:id="@+id/textView1"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignBaseline="@+id/bBackwho"
+      android:layout_alignBottom="@+id/bBackwho"
+      android:layout_centerHorizontal="true"
+      android:text="WHO"
+      android:textAppearance="?android:attr/textAppearanceMedium" />
+
+  <Button
+      android:id="@+id/bNextWho"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignParentRight="true"
+      android:layout_alignTop="@+id/bBackwho"
+      android:text="Next" />
+
+</RelativeLayout>
